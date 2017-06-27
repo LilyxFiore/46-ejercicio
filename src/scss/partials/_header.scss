@@ -1,6 +1,7 @@
 .header {
-  margin: 10%;
+  top: 0;
   text-align: center;
+  background-color: white;
 }
 
 .header-top{
@@ -25,4 +26,45 @@
   }
 }
 
+.material-icons{
+  margin-top: 15px;
+}
 
+@media(min-width: 0){
+  .header {
+    position: fixed;
+    padding: 0 5%
+  }
+  .header-top{
+    & &__logo{
+      width: 40%;
+    }
+    & &__icon{
+      width: 20px;
+      margin-top: 15px;
+    }
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  .material-icons{
+    display: block;
+  }
+}
+
+@media(min-width: 768px){
+  .header {
+    position: relative;
+    width: 100%;
+    padding: 5%;
+  }
+
+  .navigation{
+    display: block;
+  }
+  .material-icons{
+    display: none;
+  }
+}

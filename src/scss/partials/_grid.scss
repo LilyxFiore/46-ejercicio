@@ -12,7 +12,19 @@ $breakpoints : (xs : 0, sm : 768px, md : 992px, lg : 1200px );
 }
 
 @each $name, $width in $breakpoints {
-
   @include column($name, $width);
 }
 
+//Quitando padding a las columnas en vista mobile
+@media(min-width: map_get($breakpoints,xs)){
+  [class*="col-"]{
+    padding: 0;
+  }
+}
+
+//Agregando padding a las columnas en vista desktop o tablet
+@media(min-width: map_get($breakpoints,sm)){
+  [class*="col-"]{
+    padding-right: 50px;
+  }
+}

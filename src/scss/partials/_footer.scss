@@ -7,11 +7,12 @@
   overflow: auto;
   & &__top{
     overflow: auto;
-    margin: 0 10%;
+    margin: 0 5%;
   }
   & &__title{
     color: $footer-title-color;
     font-weight: $bold;
+    margin: 10px 0;
   }
   & &__text{
     margin-top: 10px;
