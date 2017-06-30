@@ -1,0 +1,11 @@
+$images:(
+        url1: "../images/design.google_library_scroll_share_1.jpg",
+        url2: "../images/gallery_present_2to1.png",
+        url3: "../images/Method_Podcast.png"
+);
+
+@for $i from 1 through 3{
+  .image#{$i}{
+    background-image: url(map-get($images,url#{$i}));
+  }
+}

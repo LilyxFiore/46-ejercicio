@@ -1,5 +1,6 @@
 @import "_fonts";
 @import "color";
+
 *{
   font-family: $base-font-family, sans-serif;
   box-sizing: border-box;
@@ -8,7 +9,6 @@
 body{
   margin: auto;
 }
-
 
 a{
   text-decoration: none;
