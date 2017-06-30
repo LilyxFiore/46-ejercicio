@@ -1,0 +1,308 @@
+* {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box; }
+
+body {
+  margin: auto; }
+
+a {
+  text-decoration: none; }
+
+p {
+  margin: 0; }
+
+.margin-top-60 {
+  margin-top: 60px; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+[class*="col-"] {
+  padding-right: 50px;
+  float: left; }
+
+.pad-20px {
+  padding: 0 20px; }
+
+.pad-right-20px {
+  padding-right: 20px; }
+
+.pad-left-right {
+  padding-right: 25px;
+  padding-left: 25px; }
+
+.no-pad-right {
+  padding-right: 0;
+  padding-left: 50px; }
+
+.bg-blue-light {
+  background-color: #ebf2fe; }
+
+@media (min-width: 0) {
+  .col-xs1 {
+    width: 8.33333%; }
+
+  .col-xs2 {
+    width: 16.66667%; }
+
+  .col-xs3 {
+    width: 25%; }
+
+  .col-xs4 {
+    width: 33.33333%; }
+
+  .col-xs5 {
+    width: 41.66667%; }
+
+  .col-xs6 {
+    width: 50%; }
+
+  .col-xs7 {
+    width: 58.33333%; }
+
+  .col-xs8 {
+    width: 66.66667%; }
+
+  .col-xs9 {
+    width: 75%; }
+
+  .col-xs10 {
+    width: 83.33333%; }
+
+  .col-xs11 {
+    width: 91.66667%; }
+
+  .col-xs12 {
+    width: 100%; } }
+@media (min-width: 768px) {
+  .col-sm1 {
+    width: 8.33333%; }
+
+  .col-sm2 {
+    width: 16.66667%; }
+
+  .col-sm3 {
+    width: 25%; }
+
+  .col-sm4 {
+    width: 33.33333%; }
+
+  .col-sm5 {
+    width: 41.66667%; }
+
+  .col-sm6 {
+    width: 50%; }
+
+  .col-sm7 {
+    width: 58.33333%; }
+
+  .col-sm8 {
+    width: 66.66667%; }
+
+  .col-sm9 {
+    width: 75%; }
+
+  .col-sm10 {
+    width: 83.33333%; }
+
+  .col-sm11 {
+    width: 91.66667%; }
+
+  .col-sm12 {
+    width: 100%; } }
+@media (min-width: 992px) {
+  .col-md1 {
+    width: 8.33333%; }
+
+  .col-md2 {
+    width: 16.66667%; }
+
+  .col-md3 {
+    width: 25%; }
+
+  .col-md4 {
+    width: 33.33333%; }
+
+  .col-md5 {
+    width: 41.66667%; }
+
+  .col-md6 {
+    width: 50%; }
+
+  .col-md7 {
+    width: 58.33333%; }
+
+  .col-md8 {
+    width: 66.66667%; }
+
+  .col-md9 {
+    width: 75%; }
+
+  .col-md10 {
+    width: 83.33333%; }
+
+  .col-md11 {
+    width: 91.66667%; }
+
+  .col-md12 {
+    width: 100%; } }
+@media (min-width: 1200px) {
+  .col-lg1 {
+    width: 8.33333%; }
+
+  .col-lg2 {
+    width: 16.66667%; }
+
+  .col-lg3 {
+    width: 25%; }
+
+  .col-lg4 {
+    width: 33.33333%; }
+
+  .col-lg5 {
+    width: 41.66667%; }
+
+  .col-lg6 {
+    width: 50%; }
+
+  .col-lg7 {
+    width: 58.33333%; }
+
+  .col-lg8 {
+    width: 66.66667%; }
+
+  .col-lg9 {
+    width: 75%; }
+
+  .col-lg10 {
+    width: 83.33333%; }
+
+  .col-lg11 {
+    width: 91.66667%; }
+
+  .col-lg12 {
+    width: 100%; } }
+.header {
+  margin: 10%;
+  text-align: center; }
+
+.header-top .header-top__logo {
+  height: 55px; }
+.header-top .header-top__icon {
+  width: 20px; }
+
+.navigation {
+  padding: 20px;
+  font-size: 14px; }
+  .navigation li {
+    display: inline-block;
+    padding: 5px 15px; }
+    .navigation li a {
+      font-weight: 500;
+      color: #414549; }
+
+.section {
+  margin: 5% 10%;
+  color: #5f6368;
+  overflow: auto; }
+  .section .section__image {
+    width: 100%;
+    margin-top: 30px; }
+  .section .section__image-col {
+    height: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .section .section__header {
+    margin: 20px 0; }
+  .section .section__title {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 500; }
+  .section .section__subtitle {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4; }
+  .section .section__text {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.4; }
+    .section .section__text--blue {
+      color: #4285f4; }
+    .section .section__text--small {
+      font-family: "Roboto Mono";
+      margin-top: 10px;
+      font-size: 14px;
+      color: #5f6368; }
+      .section .section__text--small-name {
+        font-family: Roboto;
+        white-space: pre-line; }
+  .section .section__line {
+    margin: 70px 0;
+    width: 100%;
+    height: 5px;
+    background-color: #4285f4; }
+  .section .section__icon {
+    vertical-align: middle; }
+    .section .section__icon--small {
+      margin-right: 10px;
+      border-radius: 50%;
+      width: 50px; }
+
+.container-small {
+  display: flex;
+  align-items: center;
+  margin-top: 30px; }
+  .container-small .container-small__text {
+    padding-left: 20px;
+    display: inline-block;
+    width: 80%;
+    font-weight: 700; }
+  .container-small .container-small__image {
+    display: inline-block;
+    padding: 15px; }
+
+.image1 {
+  background-image: url(../images/design.google_library_scroll_share_1.jpg); }
+
+.image2 {
+  background-image: url(../images/gallery_present_2to1.png); }
+
+.image3 {
+  background-image: url(../images/Method_Podcast.png); }
+
+.footer {
+  color: #414549;
+  font-size: 14px;
+  overflow: auto; }
+  .footer .footer__top {
+    overflow: auto;
+    margin: 0 10%; }
+  .footer .footer__title {
+    color: #4d4d4d;
+    font-weight: 700; }
+  .footer .footer__text {
+    margin-top: 10px;
+    color: #414549; }
+  .footer ul {
+    list-style: none;
+    padding: 0; }
+    .footer ul li a {
+      color: #414549; }
+    .footer ul li:hover {
+      text-decoration: underline; }
+  .footer .footer__line {
+    height: 1px;
+    background-color: #4285f4;
+    margin: 40px 0; }
+  .footer .footer__bottom {
+    margin: 5% 10%; }
+    .footer .footer__bottom-icon {
+      width: 50px; }
+
+/*# sourceMappingURL=main.css.map */

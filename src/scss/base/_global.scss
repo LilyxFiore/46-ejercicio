@@ -1,0 +1,59 @@
+@import "_fonts";
+@import "color";
+*{
+  font-family: $base-font-family, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: auto;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0;
+}
+
+.margin-top-60{
+  margin-top: 60px;
+}
+
+.right{
+  float:right;
+}
+
+.left{
+  float: left;
+}
+
+[class*="col-"]{
+  padding-right: 50px;
+  float: left;
+}
+
+.pad-20px{
+  padding: 0 20px;
+}
+
+.pad-right-20px{
+  padding-right: 20px;
+}
+
+.pad-left-right{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.no-pad-right{
+  padding-right: 0;
+  padding-left: 50px;
+}
+
+.bg-blue-light{
+  background-color: $blue-light;
+}
+

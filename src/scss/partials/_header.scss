@@ -1,0 +1,30 @@
+$color: white;
+
+.header {
+  margin: 10%;
+  text-align: center;
+}
+
+.header-top{
+  & &__logo{
+    height: 55px;
+  }
+  & &__icon{
+    width: 20px;
+  }
+}
+
+.navigation{
+  padding: 20px;
+  font-size: $small-font-size;
+  li{
+    display: inline-block;
+    padding: 5px 15px;
+    a{
+      font-weight: $medium;
+      color: $grey-text;
+    }
+  }
+}
+
+

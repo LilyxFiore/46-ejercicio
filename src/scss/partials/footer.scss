@@ -1,0 +1,43 @@
+@import "../base/color";
+@import "../base/fonts";
+
+.footer{
+  color: $grey-text;
+  font-size: $small-font-size;
+  overflow: auto;
+  & &__top{
+    overflow: auto;
+    margin: 0 10%;
+  }
+  & &__title{
+    color: $footer-title-color;
+    font-weight: $bold;
+  }
+  & &__text{
+    margin-top: 10px;
+    color: $grey-text;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    li{
+      a{
+        color: $grey-text;
+      }
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  & &__line{
+    height: 1px;
+    background-color: $blue;
+    margin: 40px 0;
+  }
+  & &__bottom{
+    margin: 5% 10%;
+    &-icon{
+      width: 50px;
+    }
+  }
+}
